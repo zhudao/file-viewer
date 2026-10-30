@@ -2,6 +2,7 @@
 import { computed, h, nextTick, onBeforeUnmount, onMounted, ref, watch, type Component } from 'vue'
 import hljs from 'highlight.js/lib/core'
 import bash from 'highlight.js/lib/languages/bash'
+import dart from 'highlight.js/lib/languages/dart'
 import javascript from 'highlight.js/lib/languages/javascript'
 import typescript from 'highlight.js/lib/languages/typescript'
 import xml from 'highlight.js/lib/languages/xml'
@@ -57,7 +58,7 @@ type Locale = 'zh' | 'en'
 type SiteTheme = 'light' | 'dark'
 type SupportDialogView = 'sponsor' | 'contact'
 type ChineseContactId = 'service' | 'updates' | 'community'
-type HighlightLanguage = 'bash' | 'javascript' | 'typescript' | 'xml'
+type HighlightLanguage = 'bash' | 'dart' | 'javascript' | 'typescript' | 'xml'
 type HeroPreviewId = 'word' | 'cad' | 'sheet' | 'slide'
 type HeroPreviewPhase = 'idle' | 'entering' | 'active' | 'leaving'
 type HeroPreviewShield = {
@@ -128,7 +129,7 @@ const compareUrl = 'https://demo.file-viewer.app/compare.html'
 const githubUrl = 'https://github.com/flyfish-dev/file-viewer'
 const githubApiUrl = 'https://api.github.com/repos/flyfish-dev/file-viewer'
 const releasesUrl = 'https://github.com/flyfish-dev/file-viewer/releases'
-const currentReleaseVersion = '3.3.0'
+const currentReleaseVersion = '3.3.1'
 const currentReleaseUrl = `${releasesUrl}/tag/v${currentReleaseVersion}`
 const registeredExtensionCount = FORMAT_CATALOG_SUMMARY.registeredExtensionCount
 const stableExtensionCount = FORMAT_CATALOG_SUMMARY.stableExtensionCount
@@ -188,6 +189,7 @@ const siteMetadata = {
 } satisfies Record<Locale, SiteMetadata>
 
 hljs.registerLanguage('bash', bash)
+hljs.registerLanguage('dart', dart)
 hljs.registerLanguage('javascript', javascript)
 hljs.registerLanguage('typescript', typescript)
 hljs.registerLanguage('xml', xml)
@@ -389,7 +391,7 @@ const copy = {
     supportTitle: '让开源维护持续下去。',
     supportIntro: '如果 File Viewer 帮到了你的项目，可以在需要时选择一种方式支持维护。',
     releaseTitle:
-      'v3.3.0 候选：DOCX 裁剪、稀疏表格与 PDF 选区修复，新增可选图片拖拽和显式点云源坐标配置；软件包尚未发布。',
+      'v3.3.1：修复大 CSV、表格布局和 PPTX 图表，完善接入说明与文件下载反馈。',
     footer: '本仓库源码与软件包采用 Apache-2.0；可选外部依赖保留各自许可。由 Flyfish Dev 持续维护。'
   },
   en: {
@@ -442,7 +444,7 @@ const copy = {
     supportIntro:
       'If File Viewer saves your team time, choose a support option when it makes sense.',
     releaseTitle:
-      'v3.3.0 candidate: DOCX crop, sparse spreadsheet and PDF selection fixes, with opt-in image panning and explicit point-cloud source CRS; packages are not yet published.',
+      'v3.3.1: large CSV, workbook layout and PPTX chart fixes, clearer setup and file-download feedback.',
     footer:
       'Repository source and packages use Apache-2.0; optional external dependencies keep their own licenses. Maintained by Flyfish Dev.'
   }
@@ -774,6 +776,38 @@ export function Preview() {
     />
   )
 }`
+  },
+  {
+    label: 'Flutter',
+    packageName: 'file_viewer_flutter',
+    install: 'flutter pub add file_viewer_flutter:0.1.0-dev.2',
+    title: isZh.value ? 'Flutter 文件预览与应用级预热' : 'Flutter previews with application warm-up',
+    summary: isZh.value
+      ? '开发预览版已在 pub.dev 发布。离线资源随应用分发，统一 Dart API 面向移动、桌面与 Web；实测范围与平台配置见 Flutter 文档。'
+      : 'The development preview is on pub.dev. Bundled offline resources and one Dart API target mobile, desktop and Web; check measured scope and host setup in the Flutter docs.',
+    language: 'Dart',
+    highlightLanguage: 'dart',
+    href: `https://flutter.file-viewer.app/${isZh.value ? 'zh' : 'en'}/docs/quickstart/`,
+    tone: 'blue',
+    icon: PanelTop,
+    code: `import 'package:flutter/material.dart';
+import 'package:file_viewer_flutter/file_viewer_flutter.dart';
+
+void main() {
+  runApp(const FileViewerHost(
+    child: MaterialApp(
+      home: Scaffold(
+        body: FileViewer(
+          source: FileViewerSource.asset('assets/example.pdf'),
+        ),
+      ),
+    ),
+  ));
+}
+
+// Declare your PDF in pubspec.yaml and configure the host once.
+// dart run file_viewer_flutter:setup --project . --check
+// dart run file_viewer_flutter:setup --project . --apply`
   },
   {
     label: 'Svelte',
