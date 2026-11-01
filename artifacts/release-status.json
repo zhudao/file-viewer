@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T20:12:37.533Z",
-  "version": "3.3.1",
+  "generatedAt": "2026-10-31T12:43:42.238Z",
+  "version": "3.3.3",
   "sourcePolicy": "private-complete-original-workspace",
   "openSourcePolicy": "public-open-source-main-repository",
   "sourceBaseline": {
     "repository": "https://git.flyfish.dev/flyfish-group/file-viewer.git",
     "branch": "main",
     "policy": "private-complete-original-workspace",
-    "authoritativeCommit": "7f77f14ea5be3917b9493620084a7201124e8383",
+    "authoritativeCommit": "aee3f688b763a8a4a26739bd3d03604038a08f51",
     "localBranch": "main",
-    "localCommit": "7f77f14ea5be3917b9493620084a7201124e8383",
+    "localCommit": "aee3f688b763a8a4a26739bd3d03604038a08f51",
     "inSync": true,
     "note": "Private Gitea main is the complete original aggregate workspace. The local checkout branch is only the execution context and can be transitional during branch cutover."
   },
   "local": {
     "branch": "main",
-    "commit": "7f77f14ea5be3917b9493620084a7201124e8383",
-    "shortCommit": "7f77f14ea",
+    "commit": "aee3f688b763a8a4a26739bd3d03604038a08f51",
+    "shortCommit": "aee3f688b",
     "dirty": false
   },
   "sourceRemote": {
     "url": "https://git.flyfish.dev/flyfish-group/file-viewer.git",
     "branch": "main",
     "ok": true,
-    "hash": "7f77f14ea5be3917b9493620084a7201124e8383",
+    "hash": "aee3f688b763a8a4a26739bd3d03604038a08f51",
     "error": ""
   },
   "openSourceMain": {
@@ -32,7 +32,7 @@
       "url": "https://github.com/flyfish-dev/file-viewer",
       "branch": "main",
       "ok": true,
-      "hash": "410ed36a192c3da06ea21f66837b73bc09e9c0a5",
+      "hash": "760038d88e9252bc746c04626b82b84226ef6948",
       "error": ""
     },
     "gitee": {
@@ -45,15 +45,15 @@
     "inSync": false,
     "syncMode": "stale",
     "treeChecked": true,
-    "referenceTree": "e03632ac108cf8afa3738459d36d249810d42b98",
+    "referenceTree": "79cced04d5f0a7c4842fe67954454ba506c089f7",
     "giteeTree": "dea9c935aefae52bdd7d61096092600fa128dd74",
     "treeError": "",
     "reportHashNote": "The open-source main repository mirrors the current public source tree and records the private source commit in the public commit body for traceability. The observed remote hash can trail until that mirror commit is pushed. Gitee can intentionally use a shallow snapshot commit; inSync is true when the file tree matches even if commit hashes differ. Use pnpm audit:ecosystem-status for live remote heads."
   },
   "githubRelease": {
     "ok": true,
-    "tag": "v3.3.1",
-    "url": "https://github.com/flyfish-dev/file-viewer/releases/tag/v3.3.1",
+    "tag": "v3.3.3",
+    "url": "https://github.com/flyfish-dev/file-viewer/releases/tag/v3.3.3",
     "assetCount": 100,
     "hasManifest": true,
     "hasStatus": true,
@@ -68,7 +68,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-core",
         "branch": "main",
         "ok": true,
-        "hash": "99762690b10d65c30dffa1587b94a1c46732367f",
+        "hash": "dac41813a67aa0daed19d5fe8f363ec9ed2fb6f8",
         "error": ""
       },
       "gitee": {
@@ -76,7 +76,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-core/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-core': terminal prompts disabled"
       }
     },
     {
@@ -86,7 +86,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-web",
         "branch": "main",
         "ok": true,
-        "hash": "4aadf67da683e872e6588a1151e22bfab0a125d1",
+        "hash": "d223c1607efccc8d1fd10376f50819dd25c2e748",
         "error": ""
       },
       "gitee": {
@@ -94,7 +94,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-web/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-web': terminal prompts disabled"
       }
     },
     {
@@ -104,7 +104,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-web-full",
         "branch": "main",
         "ok": true,
-        "hash": "a13ae1b241683c83a25c01302506dced431683b5",
+        "hash": "e90cf4341956b5511e7effedd35019a19016aa42",
         "error": ""
       },
       "gitee": {
@@ -112,7 +112,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-web-full/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-web-full': terminal prompts disabled"
       }
     },
     {
@@ -122,7 +122,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue3",
         "branch": "main",
         "ok": true,
-        "hash": "1da9e04428b0d9a2801e0d1ec2f9ff1def45c667",
+        "hash": "7b96633cd0f424b1e918809280bb622df8626628",
         "error": ""
       },
       "gitee": {
@@ -130,7 +130,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-vue3/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-vue3': terminal prompts disabled"
       }
     },
     {
@@ -140,7 +140,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue3-full",
         "branch": "main",
         "ok": true,
-        "hash": "237c790410686721854d8ce710ef0efad0075e17",
+        "hash": "c8f8e2edf1f41bb7eda124f1c2e5823dffab4ec1",
         "error": ""
       },
       "gitee": {
@@ -148,7 +148,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-vue3-full/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-vue3-full': terminal prompts disabled"
       }
     },
     {
@@ -158,7 +158,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue2.7",
         "branch": "main",
         "ok": true,
-        "hash": "cf0d2891f3b9745390d0f979a49f2267ffc8eea9",
+        "hash": "8ba471228b65a8ec6dd20dfa16beb6d1de40faae",
         "error": ""
       },
       "gitee": {
@@ -166,7 +166,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-vue2.7/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-vue2.7': terminal prompts disabled"
       }
     },
     {
@@ -176,7 +176,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue2.7-full",
         "branch": "main",
         "ok": true,
-        "hash": "32bfa222744bd64f349d2ecb2d1fe1b34d6e4b26",
+        "hash": "9308ab536fa7b66710290c98c704002a6c836267",
         "error": ""
       },
       "gitee": {
@@ -184,7 +184,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-vue2.7-full/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-vue2.7-full': terminal prompts disabled"
       }
     },
     {
@@ -194,7 +194,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue2.6",
         "branch": "main",
         "ok": true,
-        "hash": "44e8017db07fc3e98751a6261a4b765ab439c609",
+        "hash": "dd7a838fac971d8839fa1cc842b10e61c5ea4842",
         "error": ""
       },
       "gitee": {
@@ -202,7 +202,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-vue2.6/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-vue2.6': terminal prompts disabled"
       }
     },
     {
@@ -212,7 +212,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue2.6-full",
         "branch": "main",
         "ok": true,
-        "hash": "b80cc32d8095888f8d51568ef8e19d2eb3befbef",
+        "hash": "6667a7e4fef676f042c7b067d85c0312cbc20f1a",
         "error": ""
       },
       "gitee": {
@@ -220,7 +220,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-vue2.6-full/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-vue2.6-full': terminal prompts disabled"
       }
     },
     {
@@ -230,7 +230,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-react",
         "branch": "main",
         "ok": true,
-        "hash": "6d3c5d34c151d4456e7b1ad8092f906d1a1d532d",
+        "hash": "d10e0c161fdf1172825b79e1f297589b4782a016",
         "error": ""
       },
       "gitee": {
@@ -238,7 +238,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-react/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-react': terminal prompts disabled"
       }
     },
     {
@@ -248,7 +248,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-react-full",
         "branch": "main",
         "ok": true,
-        "hash": "3aa13945f93eb1afea8d915663509d697a5e0c8f",
+        "hash": "8469f2c032621d37fa8905e4f0d77f4b2eab1171",
         "error": ""
       },
       "gitee": {
@@ -256,7 +256,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-react-full/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-react-full': terminal prompts disabled"
       }
     },
     {
@@ -266,7 +266,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-react-legacy",
         "branch": "main",
         "ok": true,
-        "hash": "6919354b421cc436f0c3667c2a0a2a0bd00412d8",
+        "hash": "1b5425661a0dd474f479eaf1a1636cbf7ff5e438",
         "error": ""
       },
       "gitee": {
@@ -274,7 +274,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-react-legacy/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-react-legacy': terminal prompts disabled"
       }
     },
     {
@@ -284,7 +284,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-react-legacy-full",
         "branch": "main",
         "ok": true,
-        "hash": "368c4097dbc7def6d1798178c2547ba462d087cb",
+        "hash": "059d71bdb7cfc3e19a145a92048624c4a4d7937e",
         "error": ""
       },
       "gitee": {
@@ -292,7 +292,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-react-legacy-full/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-react-legacy-full': terminal prompts disabled"
       }
     },
     {
@@ -302,7 +302,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-jquery",
         "branch": "main",
         "ok": true,
-        "hash": "67c2cbe6682e89929316c6b3d1a6c97c1d19cf2f",
+        "hash": "2b2c1374329674e69a5ec89521fcc9cb7f9b8690",
         "error": ""
       },
       "gitee": {
@@ -310,7 +310,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-jquery/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-jquery': terminal prompts disabled"
       }
     },
     {
@@ -320,7 +320,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-jquery-full",
         "branch": "main",
         "ok": true,
-        "hash": "554c2f78ce487c0f942c039ebcac7d1c75cbe076",
+        "hash": "5d3a4ee3b70fd31eafccb47e840990d9f051fd7e",
         "error": ""
       },
       "gitee": {
@@ -328,7 +328,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-jquery-full/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-jquery-full': terminal prompts disabled"
       }
     },
     {
@@ -338,7 +338,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-svelte",
         "branch": "main",
         "ok": true,
-        "hash": "b739fb40162d1445c11f811abd2cfaaa9d33824c",
+        "hash": "98ced5cd58ba6e7a03e0f13b5020f24a85be7ff3",
         "error": ""
       },
       "gitee": {
@@ -346,7 +346,7 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-svelte/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-svelte': terminal prompts disabled"
       }
     },
     {
@@ -356,7 +356,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-svelte-full",
         "branch": "main",
         "ok": true,
-        "hash": "40fb8d130971a41da09e5c7b1e7bb0bf394f2934",
+        "hash": "3197352df34d87fda5439668658eb28d3c0d01b8",
         "error": ""
       },
       "gitee": {
@@ -364,631 +364,631 @@
         "branch": "main",
         "ok": false,
         "hash": "",
-        "error": "remote: [session-id] 404 not found!\nfatal: repository 'https://gitee.com/flyfish-dev/file-viewer-svelte-full/' not found"
+        "error": "error: unable to read askpass response from '/Users/wangyu/.config/flyfish/gitee-askpass.sh'\nfatal: could not read Username for 'https://gitee.com/flyfish-dev/file-viewer-svelte-full': terminal prompts disabled"
       }
     }
   ],
   "npmPackages": [
     {
       "packageName": "@file-viewer/core",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/asset-installer",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-cad",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-typst",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-model",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-drawing",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-iwork",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-ppt",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-hangul",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-wordperfect",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-chm",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-data",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-design",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/thumbnail",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "file-viewer-copy-assets",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-standard",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/cli",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-pdf-identity-repair",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-pptx-charts",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-mermaid",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-midi",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-rtf",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-streaming-media",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-text-tools",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-drawio-official",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-pdf",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-ofd",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-presentation",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-pptx",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-ppt",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/doc",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-word",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-spreadsheet",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-drawing",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-iwork",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-wordperfect",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-hangul",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-3d",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-mindmap",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-cad",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-typst",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-archive",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-chm",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-email",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-epub",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-text",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-image",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-dicom",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-signature",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-media",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-geo",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-design",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-data",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-binary",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/eda-layout",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/eda-orcad",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/geometry-engine",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-eda",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/pptx",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-all",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-lite",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-standard",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-office",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-engineering",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vite-plugin",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@flyfish-group/file-viewer3",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "file-viewer3",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@flyfish-group/file-viewer",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@flyfish-group/file-viewer-web",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@flyfish-group/file-viewer-react",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "msdoc-viewer",
-      "expectedVersion": "0.2.14",
-      "publishedVersion": "0.2.14",
+      "expectedVersion": "0.2.15",
+      "publishedVersion": "0.2.15",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "create-file-viewer",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "file-viewer-cli",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/web",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/web-full",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue3",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue3-full",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue2.7",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue2.7-full",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue2.6",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue2.6-full",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/react",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/react-full",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/react-legacy",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/react-legacy-full",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/jquery",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/jquery-full",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/svelte",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/svelte-full",
-      "expectedVersion": "3.3.1",
-      "publishedVersion": "3.3.1",
+      "expectedVersion": "3.3.3",
+      "publishedVersion": "3.3.3",
       "ok": true,
       "error": ""
     }
