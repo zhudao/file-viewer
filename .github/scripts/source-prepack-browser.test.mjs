@@ -424,14 +424,14 @@ test('DICOM source, built Viewer and packed owners retain distinct exact Worker-
     )
   )
   const source = {
-    path: 'served/bf7a793dd6446d4c0f287a92ca5abd20fb35d7d259072f845bf886b3723144c9.js',
-    bytes: 3155061,
-    sha256: 'bf7a793dd6446d4c0f287a92ca5abd20fb35d7d259072f845bf886b3723144c9'
+    path: 'served/35592a6fc7d3c7d8c828256d9b39546331262dc8a534e30bce5bfdab1b998c3c.js',
+    bytes: 3154646,
+    sha256: '35592a6fc7d3c7d8c828256d9b39546331262dc8a534e30bce5bfdab1b998c3c'
   }
   const packed = {
-    path: 'served/470125679ee57a0c16db4da78e895addae9c861bc68d10401d290d7bbf28456c.js',
-    bytes: 8018848,
-    sha256: '470125679ee57a0c16db4da78e895addae9c861bc68d10401d290d7bbf28456c'
+    path: 'served/a7fac4bbe521963cc406ebf12ca414f9713345789af148f1bc56d64192a2d894.js',
+    bytes: 8018353,
+    sha256: 'a7fac4bbe521963cc406ebf12ca414f9713345789af148f1bc56d64192a2d894'
   }
   const viewer = {
     path: 'served/f31e5943a8930ce2ac0331dc45aa6f6107c39c4e5927d3e530fcb1d37fa95786.js',
@@ -476,6 +476,98 @@ test('DICOM source, built Viewer and packed owners retain distinct exact Worker-
       /Independent required product bytes/
     )
   }
+})
+
+test('legacy AMD Worker bytes cannot satisfy the newly measured source or packed product contract', async () => {
+  const plan = JSON.parse(
+    await readFile(
+      join(workspaceRoot, 'packages/build-support/browser-gates/prepack-browser-manifest.json')
+    )
+  )
+  for (const [runId, oldBytes, oldSha256] of [
+    ['dicom-renderer', 3155061, 'bf7a793dd6446d4c0f287a92ca5abd20fb35d7d259072f845bf886b3723144c9'],
+    [
+      'dicom-packed-browser',
+      8018848,
+      '470125679ee57a0c16db4da78e895addae9c861bc68d10401d290d7bbf28456c'
+    ]
+  ]) {
+    const asset = plan.requiredCases.find((row) => row.runId === runId).servedAssets[0]
+    const required = requiredPlan().map((row) => ({ ...row, servedAssets: [asset] }))
+    const events = actualEvents().map((row) =>
+      row.kind === 'served-runtime-asset'
+        ? { ...row, bytes: asset.bytes, sha256: asset.sha256 }
+        : row
+    )
+    assert.equal(collect({ required, events }).length, 6)
+    const legacy = { path: `served/${oldSha256}.js`, bytes: oldBytes, sha256: oldSha256 }
+    assert.throws(
+      () =>
+        collect({ required: required.map((row) => ({ ...row, servedAssets: [legacy] })), events }),
+      /Independent required product bytes/
+    )
+    assert.throws(
+      () =>
+        collect({
+          required,
+          events: events.map((row) =>
+            row.kind === 'served-runtime-asset'
+              ? { ...row, bytes: oldBytes, sha256: oldSha256 }
+              : row
+          )
+        }),
+      /Independent required product bytes/
+    )
+  }
+})
+
+test('all spreadsheet owners require the Worker built from the actual current Core catalog', async () => {
+  const plan = JSON.parse(
+    await readFile(
+      join(workspaceRoot, 'packages/build-support/browser-gates/prepack-browser-manifest.json')
+    )
+  )
+  const asset = {
+    path: 'served/a93cf71745c076d59b1049d5358e2a04635fb5b5022b177a2a2603943e855e2a.js',
+    bytes: 779775,
+    sha256: 'a93cf71745c076d59b1049d5358e2a04635fb5b5022b177a2a2603943e855e2a'
+  }
+  for (const [runId, count] of [
+    ['issue-211-spreadsheet-table-styles', 9],
+    ['spreadsheet-414', 4],
+    ['url-source-feedback', 32]
+  ]) {
+    const rows = plan.requiredCases.filter((row) => row.runId === runId)
+    assert.equal(rows.length, count)
+    assert(rows.every((row) => JSON.stringify(row.servedAssets) === JSON.stringify([asset])))
+  }
+  const required = requiredPlan().map((row) => ({ ...row, servedAssets: [asset] }))
+  const events = actualEvents().map((row) =>
+    row.kind === 'served-runtime-asset' ? { ...row, bytes: asset.bytes, sha256: asset.sha256 } : row
+  )
+  assert.equal(collect({ required, events }).length, 6)
+  const legacy = {
+    path: 'served/42ed769b3366c5147f1990393f56f20ad0cd84a8da01539bd4184cc66b7e5d41.js',
+    bytes: 779759,
+    sha256: '42ed769b3366c5147f1990393f56f20ad0cd84a8da01539bd4184cc66b7e5d41'
+  }
+  assert.throws(
+    () =>
+      collect({ required: required.map((row) => ({ ...row, servedAssets: [legacy] })), events }),
+    /Independent required product bytes/
+  )
+  assert.throws(
+    () =>
+      collect({
+        required,
+        events: events.map((row) =>
+          row.kind === 'served-runtime-asset'
+            ? { ...row, bytes: legacy.bytes, sha256: legacy.sha256 }
+            : row
+        )
+      }),
+    /Independent required product bytes/
+  )
 })
 
 test('all original generated-fixture and source-harness producers retain current exact source pins', async () => {
