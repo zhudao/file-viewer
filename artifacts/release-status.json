@@ -1,30 +1,30 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T03:31:24.011Z",
-  "version": "3.3.4",
+  "generatedAt": "2026-11-20T18:00:17.121Z",
+  "version": "3.3.5",
   "sourcePolicy": "private-complete-original-workspace",
   "openSourcePolicy": "public-open-source-main-repository",
   "sourceBaseline": {
     "repository": "https://git.flyfish.dev/flyfish-group/file-viewer.git",
     "branch": "main",
     "policy": "private-complete-original-workspace",
-    "authoritativeCommit": "488d8cd525210182362781f113df5ea3d03439c0",
+    "authoritativeCommit": "a6437969498581c4c0320fd7fcbbc1ac232094a9",
     "localBranch": "main",
-    "localCommit": "488d8cd525210182362781f113df5ea3d03439c0",
+    "localCommit": "a6437969498581c4c0320fd7fcbbc1ac232094a9",
     "inSync": true,
     "note": "Private Gitea main is the complete original aggregate workspace. The local checkout branch is only the execution context and can be transitional during branch cutover."
   },
   "local": {
     "branch": "main",
-    "commit": "488d8cd525210182362781f113df5ea3d03439c0",
-    "shortCommit": "488d8cd52",
+    "commit": "a6437969498581c4c0320fd7fcbbc1ac232094a9",
+    "shortCommit": "a64379694",
     "dirty": false
   },
   "sourceRemote": {
     "url": "https://git.flyfish.dev/flyfish-group/file-viewer.git",
     "branch": "main",
     "ok": true,
-    "hash": "488d8cd525210182362781f113df5ea3d03439c0",
+    "hash": "a6437969498581c4c0320fd7fcbbc1ac232094a9",
     "error": ""
   },
   "openSourceMain": {
@@ -32,7 +32,7 @@
       "url": "https://github.com/flyfish-dev/file-viewer",
       "branch": "main",
       "ok": true,
-      "hash": "41eb96d21b13d27233235a9360fa6612862c2c42",
+      "hash": "a8f01cfeb7c25aa477a8fe9db9472ce882692189",
       "error": ""
     },
     "gitee": {
@@ -45,15 +45,15 @@
     "inSync": false,
     "syncMode": "stale",
     "treeChecked": true,
-    "referenceTree": "53bbff0cc1d07e5027a9187334e40bb82e7e9b3d",
+    "referenceTree": "3ad8260a3334c94d0937730e144fd03939ce8290",
     "giteeTree": "dea9c935aefae52bdd7d61096092600fa128dd74",
     "treeError": "",
     "reportHashNote": "The open-source main repository mirrors the current public source tree and records the private source commit in the public commit body for traceability. The observed remote hash can trail until that mirror commit is pushed. Gitee can intentionally use a shallow snapshot commit; inSync is true when the file tree matches even if commit hashes differ. Use pnpm audit:ecosystem-status for live remote heads."
   },
   "githubRelease": {
     "ok": true,
-    "tag": "v3.3.4",
-    "url": "https://github.com/flyfish-dev/file-viewer/releases/tag/v3.3.4",
+    "tag": "v3.3.5",
+    "url": "https://github.com/flyfish-dev/file-viewer/releases/tag/v3.3.5",
     "assetCount": 100,
     "hasManifest": true,
     "hasStatus": true,
@@ -68,7 +68,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-core",
         "branch": "main",
         "ok": true,
-        "hash": "babdc2badfd0f08e7b9d63ebedc87eab544b6ddd",
+        "hash": "8ee8875ccc7d6efcd8c7c2996e43dbf452902c54",
         "error": ""
       },
       "gitee": {
@@ -86,7 +86,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-web",
         "branch": "main",
         "ok": true,
-        "hash": "173db1dab4ccf214b546334f9fc05cb315671505",
+        "hash": "d0f65f29679f3c8dc7bcf36755c9b4d49e32011e",
         "error": ""
       },
       "gitee": {
@@ -104,7 +104,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-web-full",
         "branch": "main",
         "ok": true,
-        "hash": "cd015f904e29695717f253f00131d7f2d37cace0",
+        "hash": "35e8ffa216015503a8178b62984c4f9e872ecec4",
         "error": ""
       },
       "gitee": {
@@ -122,7 +122,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue3",
         "branch": "main",
         "ok": true,
-        "hash": "fa952d9d385461681c1c9c942cab786dee90531d",
+        "hash": "d0e526252c5841a6d55664c474fda60bf4a314b9",
         "error": ""
       },
       "gitee": {
@@ -140,7 +140,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue3-full",
         "branch": "main",
         "ok": true,
-        "hash": "c59de6b17ca1ff25de58415c25840ee2684bc53e",
+        "hash": "3da6b540b11e716a06e453e943a94aa3167ed5ed",
         "error": ""
       },
       "gitee": {
@@ -158,7 +158,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue2.7",
         "branch": "main",
         "ok": true,
-        "hash": "14dbe00d10ae03ae43a0201a487d6a5690e5d867",
+        "hash": "f2c8a5d417a1507f85ca5b96f6d30b395c2a7ad1",
         "error": ""
       },
       "gitee": {
@@ -176,7 +176,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue2.7-full",
         "branch": "main",
         "ok": true,
-        "hash": "37391a96ff8015b30e59c8dde915116574d47d29",
+        "hash": "66c71a5b3859f65c19adb2a823dc1e6f5c606098",
         "error": ""
       },
       "gitee": {
@@ -194,7 +194,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue2.6",
         "branch": "main",
         "ok": true,
-        "hash": "00d592063599b2e987c379b34d2137d3b627d8ee",
+        "hash": "a766dbf11f046614590b75d47a845013c7f1fa68",
         "error": ""
       },
       "gitee": {
@@ -212,7 +212,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-vue2.6-full",
         "branch": "main",
         "ok": true,
-        "hash": "a0f1d90d08fbc12f4f158fa357302eae6c82cc61",
+        "hash": "f5c2761488ddb788c2db6f0dee2f94984a254647",
         "error": ""
       },
       "gitee": {
@@ -230,7 +230,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-react",
         "branch": "main",
         "ok": true,
-        "hash": "9f1c1dd76ccce52d689a2142c076d65cd56db93c",
+        "hash": "cba5aba398db97d6cff607382b7caaec6bdd8be9",
         "error": ""
       },
       "gitee": {
@@ -248,7 +248,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-react-full",
         "branch": "main",
         "ok": true,
-        "hash": "992de2ae4cea8971013564f3eedee5dac8f8568b",
+        "hash": "333771a16feffc652fff6b3fb105440e143ba267",
         "error": ""
       },
       "gitee": {
@@ -266,7 +266,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-react-legacy",
         "branch": "main",
         "ok": true,
-        "hash": "f8de74ef3ccfc0f56fa0abcb86a6ceebbf7ac469",
+        "hash": "b3e31ce46c15f8af741acc9f3392f7647ca9a634",
         "error": ""
       },
       "gitee": {
@@ -284,7 +284,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-react-legacy-full",
         "branch": "main",
         "ok": true,
-        "hash": "5c06ca2903fcc9fd58e77e0b09157512bd95cd00",
+        "hash": "596a140db8e9d46538cc85d55b5e155565d7bb2a",
         "error": ""
       },
       "gitee": {
@@ -302,7 +302,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-jquery",
         "branch": "main",
         "ok": true,
-        "hash": "47f82038e88143200965c146808db3b352b130b3",
+        "hash": "1fbe0d3fc47de3d5f2f72270a93f8b33ac2e6210",
         "error": ""
       },
       "gitee": {
@@ -320,7 +320,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-jquery-full",
         "branch": "main",
         "ok": true,
-        "hash": "781c2c94dadaa2ad3dcd16b7208244de79409ca0",
+        "hash": "e5e6eb2cffb81ff0ca788b696ad393126dec52af",
         "error": ""
       },
       "gitee": {
@@ -338,7 +338,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-svelte",
         "branch": "main",
         "ok": true,
-        "hash": "efbb744d492c79aad608d85c7a48e3be8d46bc9c",
+        "hash": "29546c9148e62562357a9f30d576340fd1f4fbfe",
         "error": ""
       },
       "gitee": {
@@ -356,7 +356,7 @@
         "url": "https://github.com/flyfish-dev/file-viewer-svelte-full",
         "branch": "main",
         "ok": true,
-        "hash": "f034f7781cfedb8da3809ece0a28fec7fd65f577",
+        "hash": "3ce07dbef58596bfec8d705203820b5d16fc3ed7",
         "error": ""
       },
       "gitee": {
@@ -371,624 +371,624 @@
   "npmPackages": [
     {
       "packageName": "@file-viewer/core",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/asset-installer",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-cad",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-typst",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-model",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-drawing",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-iwork",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-ppt",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-hangul",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-wordperfect",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-chm",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-data",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-design",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/thumbnail",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "file-viewer-copy-assets",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/assets-standard",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/cli",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-pdf-identity-repair",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-pptx-charts",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-mermaid",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-midi",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-rtf",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-streaming-media",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-text-tools",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/capability-drawio-official",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-pdf",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-ofd",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-presentation",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-pptx",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-ppt",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/doc",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-word",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-spreadsheet",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-drawing",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-iwork",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-wordperfect",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-hangul",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-3d",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-mindmap",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-cad",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-typst",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-archive",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-chm",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-email",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-epub",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-text",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-image",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-dicom",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-signature",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-media",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-geo",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-design",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-data",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-binary",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/eda-layout",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/eda-orcad",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/geometry-engine",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/renderer-eda",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/pptx",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-all",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-lite",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-standard",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-office",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/preset-engineering",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vite-plugin",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@flyfish-group/file-viewer3",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "file-viewer3",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@flyfish-group/file-viewer",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@flyfish-group/file-viewer-web",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@flyfish-group/file-viewer-react",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "msdoc-viewer",
-      "expectedVersion": "0.2.16",
-      "publishedVersion": "0.2.16",
+      "expectedVersion": "0.2.17",
+      "publishedVersion": "0.2.17",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "create-file-viewer",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "file-viewer-cli",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/web",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/web-full",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue3",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue3-full",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue2.7",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue2.7-full",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue2.6",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/vue2.6-full",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/react",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/react-full",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/react-legacy",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/react-legacy-full",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/jquery",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/jquery-full",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/svelte",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     },
     {
       "packageName": "@file-viewer/svelte-full",
-      "expectedVersion": "3.3.4",
-      "publishedVersion": "3.3.4",
+      "expectedVersion": "3.3.5",
+      "publishedVersion": "3.3.5",
       "ok": true,
       "error": ""
     }
