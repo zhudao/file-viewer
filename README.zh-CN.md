@@ -44,7 +44,7 @@
 </p>
 
 <p align="center">
-  <a href="https://demo.file-viewer.app"><img src="docs/public/_media/file-viewer-demo-v3-zh.webp" width="920" alt="File Viewer 在线演示：Word、Excel、PPT、3D 模型、CAD 图纸与二进制检查器" /></a>
+  <a href="https://demo.file-viewer.app"><img src="docs/public/_media/file-viewer-demo-v3-zh.webp" width="920" alt="File Viewer 中文界面实录，展示 DOCX 季度报告、PPTX 放映、DWFx 图纸缩放和 GLB 模型旋转" /></a>
 </p>
 
 <p align="center">⭐ 如果 File Viewer 对你有帮助，欢迎<a href="https://github.com/flyfish-dev/file-viewer">点个 Star</a>。</p>
@@ -107,9 +107,38 @@
 
 ## 在线效果
 
-![File Viewer 中文产品演示：在沉浸式工作台中预览特色 DOCX、PPTX、DWG 与可交互的三维 STEP 模型](docs/public/_media/file-viewer-demo-v2.2.6-formats-zh.gif)
+[狐狸模型作者与许可](https://demo.file-viewer.app/example/licenses/fox/NOTICE.txt)。
 
 打开 [demo.file-viewer.app](https://demo.file-viewer.app) 即可使用上图中的产品工作台：固定玻璃工具栏、点击文件名展开的样例库、本地最近打开记录、明暗主题、移动端单一“更多”入口，以及只让文档容器滚动的沉浸画布。内置样例覆盖 Word、Excel、二进制 PPT、PPTX、PDF/OFD、DWG、STEP、压缩包、邮件和其余已注册矩阵；也可以上传脱敏文件或粘贴 URL。
+
+## 浏览器兼容矩阵
+
+最低支持版本以表中平台和操作的实际验收为准。桌面四项预览检查使用同一份冻结的 Full 3.3.6 候选归档，覆盖 PDF 像素及实际 Module Worker、纯文本、离线 Typst WASM、DOCX 标题及表格。
+
+| 桌面浏览器 | 最低支持版本 | 已验证平台 | 验收范围 |
+| --- | --- | --- | --- |
+| Google Chrome | **113.0.5672.63** | macOS 27.0.1，Apple Silicon，官方 Chrome for Testing | 桌面四项通过。Chrome 正式版 158.0.8127.37 也通过了已发布 Full 3.3.5 的 PDF 和纯文本冒烟测试。 |
+| Microsoft Edge | **111.0.1661.62** | macOS 27.0.1，Apple Silicon，官方 Edge | 桌面四项通过。Edge 158.0.4370.33 也通过了已发布 Full 3.3.5 的 PDF 和纯文本冒烟测试。 |
+| Mozilla Firefox | **114.0.2** | Ubuntu 24.04.5 ARM64，Canonical Firefox 构建号 20230619081400 | 桌面四项通过。macOS 和 Firefox ESR 待单独验收。 |
+| Apple Safari | **27.0.1** | macOS 27.0.1，Apple Silicon，系统 WebKit 构建 22625.1.29.11.28 | 原生 Safari 桌面四项通过 |
+| Brave、Opera、Vivaldi 等桌面浏览器 | 待确认 | — | 待对应浏览器专项验收 |
+| Internet Explorer 11 与 EdgeHTML 12–18 | 不支持 | — | 超出浏览器支持范围 |
+
+| 移动端浏览器或内嵌容器 | 最低支持版本 | 已验证平台 | 验收范围 |
+| --- | --- | --- | --- |
+| iPhone Safari | **18.4** | iOS 18.4（22E238），iPhone 16e 模拟器，WebKit 构建 8621.1.15.10.7 | Full 3.3.6 候选版 PPTX 预览、原生导航及重挂载通过。已发布 3.3.5 的 PDF 翻页、缩放也通过。 |
+| iPad Safari | **18.4** | iPadOS 18.4（22E238），iPad（A16）模拟器，WebKit 构建 8621.1.15.10.7 | Full 3.3.6 候选版 PPTX 预览、原生导航、卸载及三次重挂载通过 |
+| Android Chrome、Samsung Internet 等移动浏览器 | 待确认 | — | 待完成 Android 设备验收 |
+| Android System WebView、WKWebView、WebView2 和应用内置浏览器 | 待确认 | — | 按宿主应用、系统及内嵌引擎版本验收 |
+
+Vite 8.3.8 生产演示的 JavaScript 语法目标为 Chrome 111、Edge 111、Firefox 114、Safari 16.4 和 iOS 16.4。Linux 回归使用 Playwright 1.65.1，在 Chromium 159.0.8154.6、Firefox 159.0 和 WebKit 27.2 中记录 1,383 条源码用例与引擎组合结果。冻结 npm 包在 Chromium 与 WebKit 上覆盖 16 种 Standard / Full 集成。 [Vite 8 构建目标](https://vite.dev/config/build-options#build-target) · [Chrome for Testing](https://developer.chrome.com/docs/automation-and-testing/chrome-for-testing) · [源码浏览器矩阵](https://github.com/flyfish-dev/file-viewer/actions/runs/44860233476/job/136711685229) · [冻结包集成验收](https://github.com/flyfish-dev/file-viewer/actions/runs/44756935324) · [Playwright 引擎说明](https://playwright.dev/docs/browsers)
+
+| 运行能力 | 兼容条件 |
+| --- | --- |
+| 标准预览、Web Component、Script 标签与 iframe | 浏览器需提供 DOM、Canvas 和模块能力。内嵌页面按实际使用启用打印、下载及打开链接权限。 |
+| PDF / Office、压缩包及专业渲染器 | 按所选渲染器发布匹配的 Worker、WASM、字体和 vendor 资产。WASM 使用 `application/wasm`，CSP 与 CORS 允许所配置的 Worker 和资源来源。 |
+| DICOM 与 GPU 加速的三维 / 地图 | 启用 WebGL 2，并在部署设备上的浏览器或 WebView 确认可以创建绘图上下文。DICOM 需显式安装。 |
+| 音视频和剪贴板 | 播放受浏览器及操作系统编解码器影响。写入剪贴板受安全来源、权限和浏览器交互策略约束。 |
 
 ## 兼容性反馈
 
